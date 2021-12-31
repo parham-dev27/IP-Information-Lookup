@@ -201,7 +201,7 @@ def main():
         print(Fore.RED + "\nExiting...")
         exit()
     except:
-        print(Fore.RED + "\n Something Went Wron")
+        print(Fore.RED + "\n Something Went Wrong")
 
 
 if __name__ == '__main__':
