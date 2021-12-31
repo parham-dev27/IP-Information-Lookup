@@ -1,12 +1,3 @@
-# http://ip-api.com/json/24.48.0.1
-
-# status,message,continent,continentCode,country,countryCode,region,regionName,city,district,zip,lat,lon,timezone,offset,currency,isp,org,as,asname,reverse,mobile,proxy,hosting,query
-
-# http://ip-api.com/json/{query}?fields=66846719
-# ipv4: https://api.ipify.org/
-# ipv6: https://ipify.org/
-
-#sleep
 def main():
     from sys import platform as OS
     from os import system as commandPrompt
@@ -107,7 +98,6 @@ def main():
                 print("\n"*100)
             else:
                 exit()
-    # ===============================================
     try:
         init(autoreset=True)
 
